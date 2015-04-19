@@ -6,13 +6,23 @@
 		<artifactId>venus-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>web</artifactId>
+	<artifactId>venus-web</artifactId>
 	<packaging>war</packaging>
 	<dependencies>
 
 		<dependency>
 			<groupId>com.hltx.venus</groupId>
 			<artifactId>venus-service</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.hltx.venus</groupId>
+			<artifactId>venus-common</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.hltx.venus</groupId>
+			<artifactId>venus-wechat</artifactId>
 		</dependency>
 
 		<dependency>
@@ -78,11 +88,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 		</dependency>
@@ -92,7 +97,12 @@
 			<artifactId>dom4j</artifactId>
 		</dependency>
 
-
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+		</dependency>
+		
+		
 	</dependencies>
 
 	<build>

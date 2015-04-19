@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
+
 //import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.fastjson.JSON;
+import com.hltx.venus.common.util.Logger;
 import com.hltx.venus.web.base.BaseController;
-import com.hltx.venus.web.util.Logger;
 import com.hltx.venus.web.wechat.util.C;
 import com.hltx.venus.web.wechat.util.HttpClientUtil;
 import com.hltx.venus.web.wechat.util.MessageUtil;

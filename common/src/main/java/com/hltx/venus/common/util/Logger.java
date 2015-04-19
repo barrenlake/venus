@@ -1,4 +1,4 @@
-package com.hltx.venus.web.util;
+package com.hltx.venus.common.util;
 
 /**
  * 用于记录日志文件
